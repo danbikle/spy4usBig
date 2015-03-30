@@ -64,6 +64,9 @@ python ~ann/spy4us/ml101.py $TRAIN_YRS $YRS
 # That should give me
 # /tmp/spy4us/prdf1.csv
 
+# What happened?
+python ~ann/spy4us/plotem.py /tmp/spy4us/prdf1.csv
+
 # Do it Again (Feed-Forward)
 python ~ann/spy4us/ml101ff.py $TRAIN_YRS $YRS
 # That should give me
