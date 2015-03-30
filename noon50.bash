@@ -16,6 +16,9 @@ export HTML=yes
 # will appear in the data.
 # So, at night, export HTML=no
 
+# cron needs this:
+export PATH=/home/ann/anaconda3/bin:$PATH
+
 cd ~ann/spy4us/
 ./ml101.bash 
 ./publish2web.bash
