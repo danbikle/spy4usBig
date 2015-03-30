@@ -16,4 +16,9 @@ The second part copies the predictions to meteor.com.
 Then I rely on meteor.com to serve the predictions to you when you
 want to see them in your browser.
 
+Questions?
+
+e-me: dan@bot4.us
+
+-- Dan Bikle
 
