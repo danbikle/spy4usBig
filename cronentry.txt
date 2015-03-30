@@ -1,4 +1,4 @@
 # /home/ann/spy4us/cronentry.txt
 # I should call noon50.bash m-f at noon:50 California Time which is 19:50 UTC
-56 19 * * mon,tue,wed,thu,fri /home/ann/spy4us/noon50dan.bash > /tmp/noon50_bash.txt 2>&1
+21 20 * * mon,tue,wed,thu,fri /home/ann/spy4us/noon50dan.bash > /tmp/noon50_bash.txt 2>&1
 #
