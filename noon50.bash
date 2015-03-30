@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# /home/ann/spy4us/call_ml101.bash
+# /home/ann/spy4us/noon50.bash
 
 # This script should call ml101.bash with correct variables.
 
@@ -11,7 +11,7 @@ export YRS=15
 export TRAIN_YRS=10
 
 # This should be yes when I want a prediction near calif-noon:55 m-f:
-export HTML=no
+export HTML=yes
 # At night, if I set HTML=yes a duplicate observation of the most recent close
 # will appear in the data.
 # So, at night, export HTML=no
