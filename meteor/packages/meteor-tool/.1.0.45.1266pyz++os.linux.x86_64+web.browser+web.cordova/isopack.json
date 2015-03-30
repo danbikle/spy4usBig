@@ -1,0 +1,33 @@
+{
+  "isopack-1": {
+    "name": "meteor-tool",
+    "summary": "The Meteor command-line tool",
+    "version": "1.0.45",
+    "isTest": false,
+    "builds": [
+      {
+        "kind": "main",
+        "arch": "os",
+        "path": "os.json"
+      },
+      {
+        "kind": "main",
+        "arch": "web.browser",
+        "path": "web.browser.json"
+      },
+      {
+        "kind": "main",
+        "arch": "web.cordova",
+        "path": "web.cordova.json"
+      }
+    ],
+    "plugins": [],
+    "tools": [
+      {
+        "name": "meteor",
+        "arch": "os.linux.x86_64",
+        "path": "mt-os.linux.x86_64"
+      }
+    ]
+  }
+}
