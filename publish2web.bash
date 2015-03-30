@@ -34,6 +34,11 @@ mkdir -p spy4us/public
 cp -p *csv *png spy4us/public/
 
 cd /tmp/spy4us/spy4us/
+echo '<template name="t2">' > t2.html
+echo <pre>                 >> t2.html
+head ff1.csv               >> t2.html
+echo </pre>                >> t2.html
+echo </template>           >> t2.html
 
 /home/ann/spy4us/meteor/meteor deploy `cat /home/ann/spy4us/sitename.txt`
 
